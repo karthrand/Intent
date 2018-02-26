@@ -4,15 +4,25 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:gravity="center">
-    <!--  步骤4：
-        删除原本的TextView，新建Button
-        
-    -->   
+
+   <!--步骤四 创建三种情况的按钮    -->
 	<Button
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
 		android:id="@+id/mainButton1"
-		android:text="跳转"/>
-    <!--  步骤4结束  -->
+		android:text="显式跳转"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="隐式跳转"
+		android:id="@+id/mainButton2"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="打开百度"
+		android:id="@+id/mainButton3"/>
+
 </LinearLayout>
 
